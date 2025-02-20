@@ -9,7 +9,7 @@ const App = () => {
   return (
     <SafeAreaProvider>
       
-      <SafeAreaView style={[styles.container, { backgroundColor: isEnabled ? 'gray' : 'yellow' }]}>
+      <SafeAreaView style={[styles.container, { backgroundColor: isEnabled ? 'yellow' : 'text' }]}>
 
 
         {isEnabled && (
